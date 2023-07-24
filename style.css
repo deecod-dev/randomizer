@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    color:black;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    .heading{
+        font-size: 50px;
+        font-family: cursive;
+    }
+    margin: 50px;
+}
+.players{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content:space-evenly;
+    background-color: aqua;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 4px;
+}
+.imgbox{
+    width: 600px;
+    height: 250px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-evenly;
+    .img1,.img2{
+        border: solid turquoise 5px;
+        border-radius: 9px;
+        width: 300px;
+        height: 230px;
+    }
+}
+.winner{
+    font-size:90px;
+    color:coral;
+    margin: 20px 0 20px 0;
+}
